@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/admin"/>
+    <qresource prefix="/image">
+        <file>Resources/hospital_magement.png</file>
+    </qresource>
+</RCC>
