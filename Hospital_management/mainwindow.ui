@@ -25,8 +25,11 @@
      <height>571</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/prefix/Resources/timg.jpg);</string>
+   </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>3</number>
    </property>
    <widget class="QWidget" name="widget">
     <attribute name="title">
@@ -299,6 +302,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="background.qrc"/>
+ </resources>
  <connections/>
 </ui>

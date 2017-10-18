@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/prefix">
+    <file>Resources/hospital_back.png</file>
+    <file>Resources/hospital_magement.png</file>
+  </qresource>
+</RCC>

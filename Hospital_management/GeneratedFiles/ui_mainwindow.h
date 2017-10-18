@@ -70,6 +70,7 @@ public:
         tabWidget = new QTabWidget(dialogClass);
         tabWidget->setObjectName(QStringLiteral("tabWidget"));
         tabWidget->setGeometry(QRect(0, 0, 601, 571));
+        tabWidget->setStyleSheet(QStringLiteral("background-image: url(:/prefix/Resources/timg.jpg);"));
         widget = new QWidget();
         widget->setObjectName(QStringLiteral("widget"));
         tableView = new QTableView(widget);
@@ -180,7 +181,7 @@ public:
 
         retranslateUi(dialogClass);
 
-        tabWidget->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(3);
 
 
         QMetaObject::connectSlotsByName(dialogClass);
